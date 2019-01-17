@@ -18,7 +18,7 @@
 
 ## Communication with Homebridge
 
-You need the webhook-plugin in Homebridge: [https://www.npmjs.com/package/homebridge-http-webhooks]()
+You need the webhook-plugin in Homebridge: [https://www.npmjs.com/package/homebridge-http-webhooks](https://www.npmjs.com/package/homebridge-http-webhooks)
 
 Define the config and set the URL in the ino-Code to the webhook-destination.
 
