@@ -47,7 +47,9 @@ Go to the Settings of the new Sensor and activate the status and notification. A
 
 ## Config in ino-Code
 
-Look at this two lines. One is for your wifi-config:
+Look at these two lines:
+
+One is for your wifi-config:
 `  WiFi.begin("SSID", "PASSWORD");`
 
 The other one is for the webhook as described above:
@@ -56,9 +58,9 @@ The other one is for the webhook as described above:
 ## Flash the ESP and finetuning
 
 Flash the ESP. If you have a nodeMCU-Board it will be very simple. Check out this video for the correct wiring:
-[https://www.youtube.com/watch?v=zwp9E37ioVw]()
+[https://www.youtube.com/watch?v=zwp9E37ioVw](https://www.youtube.com/watch?v=zwp9E37ioVw)
 
 If you are using a ESP-01 you have to hardware-hack it for deepsleep wakeup like here:
-[https://www.instructables.com/id/Enable-DeepSleep-on-an-ESP8266-01/]()
+[https://www.instructables.com/id/Enable-DeepSleep-on-an-ESP8266-01/](https://www.instructables.com/id/Enable-DeepSleep-on-an-ESP8266-01/)
 
 To save energy cut every existing smd-led on the ESP-Board 🔪 (yes - destroy it 😅)
